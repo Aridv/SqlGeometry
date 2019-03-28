@@ -7,8 +7,8 @@ using System.IO;
 
 public class GeometryHelper
 {
-    private const string POLYGON_START = "POLYGON(('";
-    private const string POLYGON_END = "'))";
+    private const string POLYGON_START = "POLYGON((";
+    private const string POLYGON_END = "))";
     private const int SRID = 4326;
 
     public GeometryHelper()
